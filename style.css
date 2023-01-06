@@ -1,0 +1,184 @@
+/*  ===================================== */
+/* Handphone version */
+/*  ==================================== */
+.page-box-01 {
+background-image: url('drawing.svg');
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 120px;
+height: auto;
+display: flex;
+flex-direction: column-reverse;
+justify-content: center;
+align-items: center;
+}
+.page-box-01-item {
+padding:1em;
+color: white;
+text-align: center;
+}
+.page-box-01-item > h5 {
+font-size: 1em;
+}
+/* -------------------    Page-box 01 */
+
+
+/* ------------------     Page-box 02 */
+
+.page-box-02 {
+padding: 1em;
+}
+
+/* -----------------  Page-box 03 */
+
+.page-box-03 {
+padding: 1em;
+}
+
+.page-box-03-item {
+
+}
+
+/* ------------------ Page-box 04 */
+
+.page-box-04 {
+padding: 1em;
+
+}
+
+
+/* -----------------  Page-box 05 */
+
+.page-box-05 {
+padding: 1em;
+}
+
+/* ----------------   Page-box 06 */
+
+.page-box-06 {
+padding: 1em;
+display:flex;
+flex-direction: column;
+}
+
+
+
+/* ---  ----  ----  ---   random cloud */
+/* https://codepen.io/ibrahimjabbari/pen/ozinB */
+hr.is {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+}
+hr.is:after {
+	content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+
+.image-01 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  filter: grayscale(80%);
+  border-radius: 50%;
+}
+
+img {
+margin-top: 0.5em;
+display: block;
+width: 100%;
+height:auto;
+}
+
+a:link {
+text-decoration: none;
+}
+a:hover {
+color: red;
+}
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+/* ============================ */
+/* Desktop Section */
+/* ============================ */
+
+@media (min-width: 992px) { 
+
+main {
+margin: 3em;
+border-style: solid;
+}
+/* ------------ main --------------- */
+
+.page-box-01 {
+flex-direction: row;
+display: flex;
+}
+.image-001 {
+flex:3;
+}
+.image-002 {
+flex:1;
+}
+/* -------------- Page 01 ------------ */
+.page-box-02 {
+text-align: center;
+}
+/* -------------- Page 02 ------------ */
+
+.page-box-03 {
+display: flex;
+}
+.page-box-03-item {
+text-align: center;
+flex: 2;
+}
+
+/* ------------ Page 03 --------------- */
+
+.page-box-04 {
+display: flex;
+}
+
+.page-box-04-item { 
+text-align:center;
+flex: 2;
+}
+
+/* --------- page 04 ----------------- */
+
+.page-box-05 {
+display: flex;
+}
+.page-box-05-item {
+flex: 2;
+text-align: center;
+}
+
+/* ----------------- page 05 --------------*/
+
+.page-box-06 {
+display: flex;
+flex-direction: row;
+}
+
+
+.tengah {
+text-align: center;
+}
+} /* ------------ End ---------- */
+
